@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "gamingCommunity.css">
+        <title>Gaming Community</title>
+    </head>
+
+    <body>
+        <div class = "main">
+            <div class = "communityDropdown">
+                <select onchange = "location = this.options[this.selectedIndex].value;" id = "communitySelector" name = "communitySelector">
+                    <option value = "">Select a community...</option>
+                    <option value = "../gamingCommunity/index.html">All Things Gaming</option>
+                    <option value = "../hindiCommunity/index.html">All Things Hindi</option>
+                </select>
+            </div>
+
+            <div class = "singleContainerNav">
+                <div class = "navigation">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "myprofile.html">My Profile</a></li>
+                        <li><a href = "myaccount.html">My Account</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "mainContainer">
+                <div class = "centeredProfileImg">
+                    <img src = "../database/profileDisplayImg/2.png" alt = "Profile Picture" class = "myProfileImg" id = "centeredImg">
+                    <h2>Charlie Charlestons</h2>
+                </div>
+            </div>
+                    <div class = "settingsDiv">
+                        <h2>Account Settings</h2>
+                        
+                        <p>Update Email Address</p>
+                        <p>Update Password</p>
+                        <p>Upload Profile Picture</p>
+                        <p>Log Out</p>
+                        <br>
+                        <h2>Your Communities</h2>
+                        <p>All Things Gaming</p>
+                        <p>All Things Hindi</p>
+                        <br>
+                        <p>Deactivate Account</p>
+                    </div>
+    </body>

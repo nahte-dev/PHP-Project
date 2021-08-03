@@ -1,0 +1,509 @@
+body {
+    width: 100%;
+    font-family: Helvetica;
+}
+
+td {
+    font-family: Helvetica;
+    color: white;
+}
+/*Div arrangement formatting*/
+.main {
+    background: #141213;
+    border: 3px solid black;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.leftSectionDiv {
+    width: 600px;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 15px;
+    float: left;
+}
+
+.rightSectionDiv {
+    margin-left: 720px;
+    margin-right: 25px;
+    margin-top: 55px;
+    height: 100%;
+}
+
+.loginBox {
+    margin: auto;
+    background-color: #303030;
+}
+
+.rightContainer {
+    background-color: #303030;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    height: 100%;
+    padding-top: 15px;
+}
+
+.singleContainerNav {
+    margin-left: 720px;
+    margin-right: 25px;
+    margin-top: 55px;
+    height: 100%;
+}
+
+.yourProfileDiv {
+    width: 600px;
+    height: 180px;
+    margin-bottom: 15px;
+    background: #303030;
+    border-radius: 15px;
+}
+
+.yourFriendsDiv {
+    width: 600px;
+    margin-bottom: 15px;
+    background: #303030;
+    border-radius: 15px;
+}
+
+.yourAchievementsDiv {
+    width: 600px;
+    margin-bottom: 15px;
+    background: #303030;
+    border-radius: 15px;
+}
+
+.p_BadgesDiv {
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    background: #303030;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+
+.p_AboutMeDiv {
+    width: 650px;
+    display: inline-block;
+    margin-left: 65px;
+    background: #303030;
+    border-radius: 15px;
+    height: 250px;
+}
+
+.p_AchievementsDiv {
+    width: 500px;
+    display: inline-block;
+    margin-left: 65px;
+    vertical-align: top;
+    background: #303030;
+    border-radius: 15px;
+    height: 250px;
+}
+
+.profileFriendsDiv {
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 15px;
+    background: #303030;
+    border-radius: 15px;
+}
+
+.profilePostsDiv {
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 15px;
+    background: #303030;
+    border-radius: 15px;
+}
+
+.mainContainer {
+    width: 100%;
+    
+    padding-top: 15px;
+}
+
+.settingsDiv {
+    color: white;
+    font-family: Helvetica;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #303030;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.settingsDiv li {
+    list-style-type: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: Helvetica;
+}
+
+.settingsDiv li a:focus {
+    color: white;
+}
+
+.settingsDiv li a:hover {
+    color: yellow;
+}
+
+.settingsDiv li a:visited {
+    color: white;
+}
+
+.firstRowDiv {
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+.statusPostDiv h2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+    font-family: Helvetica;
+    border-radius: 5px;
+}
+
+.statusPostDiv h3 {
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+    font-family: Helvetica;
+    border-radius: 5px;
+}
+
+.firstRowDiv th {
+    color: white;
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: left;
+}
+
+/*Navigation formatting*/
+.navigation {
+    width: 100%;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+}
+
+.navigation li {
+    display: inline;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 18px;
+    background-color: #474747;
+}
+
+.navigation li a:focus {
+    color: white;
+}
+
+.navigation li a:hover {
+    color: yellow;
+}
+
+.navigation li a:visited {
+    color: white;
+}
+
+/*Table formatting*/
+.yourProfile {
+    padding-top: 15px;
+}
+
+.yourProfileDiv table {
+    width: 100%;
+    margin-right: auto;
+}
+
+.yourProfile td {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.yourFriends th {
+    font-family: Helvetica;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.yourAchievements th {
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.profileBadges {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.profileAboutMe {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.profileAchievements {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.recentPosts th {
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.recentPosts {
+    margin-top: 10px;
+}
+
+.yourFriends th {
+    color: white;
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: left;
+}
+
+.profilePosts th {
+    color: white;
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: left;
+}
+
+.profilePosts {
+    margin-left: 10px;
+}
+
+.profileBadges td {
+    margin-left: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+.profileAboutMe td {
+    margin-left: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+.profileAchievements td {
+    margin-left: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+.yourIndividualFriend {
+    font-size: 16px;
+    border: 2px hidden black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.yourIndividualAchievement {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.individualPosts {
+    background-color: #393939;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    width: 500px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Image formatting*/
+.myProfileImg {
+    width: 125px;
+    height: 125px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 3px solid black;
+    border-radius: 70px;
+    display: block;
+}
+
+.imgCell {
+    width: 140px;
+}
+
+.friendsProfileImg {
+    width: 125px;
+    height: 125px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.postProfileImg {
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.centeredProfileImg {
+    width: 100%;
+}
+
+#centeredImg {
+    margin: auto;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+
+/*Misc*/
+#myProfileName {
+    font-size: 26px;
+    text-align: left;
+    vertical-align: text-top;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#dateJoined {
+    text-align: left;
+}
+
+.communityDropdown {
+    width: 600px;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 15px;
+    float: left;
+}
+
+#communitySelector {
+    width: 400px;
+    background-color: #141213;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: white;
+}
+
+#titleBox {
+    width: 250px;
+    margin-left: 15px;
+    background-color: #474750;
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px black;
+    padding-bottom: 5px;
+    color: white;
+}
+
+#contentBox {
+    width: 500px;
+    margin-left: 15px;
+    background-color: #474750;
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px black;
+    padding-bottom: 5px;
+    color: white;
+}
+
+#postButton {
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: #474747;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 25px;
+}
+
+#commentBox {
+    width: 200px;
+    margin-left: 15px;
+    border-radius: 50px;
+    background-color: #474750;
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px black;
+    padding-bottom: 5px;
+    color: gray;
+}
+
+#friendsName {
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.centeredProfileImg h2 {
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+}
+
+
+
+
+
+
+
+
+
+
